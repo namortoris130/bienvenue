@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 
-var bot = new Discoror.Client(); 
+var bot = new Discord.Client(); 
 
-bot.on("ready",function(){
-    bot.user.setGame("joue a dire bonjour");
+bot.on("ready", function(){
+    bot.user.setGame("joue a dire bonjour, !bonjour");
     console.log("le bot a bien été connecte");
 });
 
